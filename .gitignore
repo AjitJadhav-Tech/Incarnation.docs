@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# PDF files (don't commit test PDFs)
+*.pdf
+
+# Temporary files
+_temp*.pdf
+*.tmp
+*.log
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets (if you add config files)
+config.ini
+secrets.json
+.env
